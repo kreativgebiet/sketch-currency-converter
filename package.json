@@ -5,9 +5,9 @@
     "sketch": ">=3.0"
   },
   "skpm": {
-    "name": "CurrencyConverter",
+    "name": "Currency converter",
     "manifest": "src/manifest.json",
-    "main": "plugin.sketchplugin"
+    "main": "Converter.sketchplugin"
   },
   "scripts": {
     "build": "skpm-build",

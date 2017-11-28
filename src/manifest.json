@@ -3,15 +3,21 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Dollar to Naira",
+      "identifier": "dollar-to-naira",
+      "script": "./dollar-to-naira.js"
+    },
+    {
+      "name": "Naira to dollar",
+      "identifier": "naira-to-dollar",
+      "script": "./naira-to-dollar.js"
     }
   ],
   "menu": {
-    "title": "CurrencyConverter",
+    "title": "Currency converter",
     "items": [
-      "my-command-identifier"
+      "dollar-to-naira",
+      "naira-to-dollar"
     ]
   }
 }
